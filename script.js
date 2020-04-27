@@ -173,12 +173,15 @@ if (media != "image") {
             $("#thumbnail1").attr("src" , cardThumbnail);  
         } else { // error image and message if there is no image on wikipedia. test using 08/07 (august 7)
             console.log("No Wikipedia image!"); 
+
             $("#thumbnail1").attr("src", "assets/no_image.png");
-            //$("#photoError").text("Your birthday buddy does not have an image on their Wikipedia page. Please enjoy these giraffes instead!")
+//$("#photoError").text("Your birthday buddy does not have an image on their Wikipedia page. Please enjoy these giraffes instead!")
         };
     // card more info button
         $("#h2").text(`Born on this day in ${cardYear}`)
+
         let cardMoreInfo = Wikipediaresponse.births[40].pages[0].content_urls.desktop.page;
+
         console.log(cardMoreInfo);
         $("#moreInfo").attr("href", cardMoreInfo);
 
