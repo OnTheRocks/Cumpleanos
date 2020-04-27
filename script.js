@@ -159,26 +159,26 @@ if (media != "image") {
     }).then(function(Wikipediaresponse) {
         console.log(Wikipediaresponse); 
     // card text
-        let cardText = Wikipediaresponse.births[75].text;
+        let cardText = Wikipediaresponse.births[40].text;
         console.log(cardText);
         $("#text").text(cardText);
     // card year
-        let cardYear = Wikipediaresponse.births[75].year;
+        let cardYear = Wikipediaresponse.births[40].year;
         console.log(cardYear);
         $("#year1").text(cardYear);
     // card image 
-        if (Wikipediaresponse.births[75].pages[0].originalimage) {
-            let cardThumbnail = Wikipediaresponse.births[75].pages[0].originalimage.source;
+        if (Wikipediaresponse.births[40].pages[0].originalimage) {
+            let cardThumbnail = Wikipediaresponse.births[40].pages[0].originalimage.source;
             console.log(cardThumbnail);
             $("#thumbnail1").attr("src" , cardThumbnail);  
         } else { // error image and message if there is no image on wikipedia. test using 08/07 (august 7)
             console.log("No Wikipedia image!"); 
-            $("#thumbnail1").attr("src", "assets/giraffe-error-meme.jpeg");
+            $("#thumbnail1").attr("src", "assets/no_image.png");
             //$("#photoError").text("Your birthday buddy does not have an image on their Wikipedia page. Please enjoy these giraffes instead!")
         };
     // card more info button
         $("#h2").text(`Born on this day in ${cardYear}`)
-        let cardMoreInfo = Wikipediaresponse.births[75].pages[0].content_urls.desktop.page;
+        let cardMoreInfo = Wikipediaresponse.births[40].pages[0].content_urls.desktop.page;
         console.log(cardMoreInfo);
         $("#moreInfo").attr("href", cardMoreInfo);
 
