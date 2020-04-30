@@ -1,7 +1,14 @@
 # Cumpleaños
 
 # Description
-This app draws upon three APIs to show users a variety of information related to their birthday. Upon arriving to the page, the user enters their birth month and day using a dropdown menu. From this information, the user is shown their zodiac sign horoscope (pulled from the Aztro API), the NASA Image of the Day from their birthday in 2018 (pulled from the NASA Astronomy of the Day API), and another famous person born on the same day (pulled from the Wikipedia Born On This Day API). 
+This is a fun app that is geared towards zoomers/millennials. But free and readily available for anyone to use.  It's a lighthearted app that draws upon three APIs to show users a variety of information related to their birthday. Upon arriving to the page, the user enters their birth month and day using a dropdown menu. From this information, the user is shown their zodiac sign horoscope (pulled from the Aztro API), the NASA Image of the Day that was posted on their birthdate in 2018 (pulled from the NASA Image of the Day API), and another famous person born on the same day (pulled from the Wikipedia Born On This Day API). 
+
+# Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Bulma.IO
+
 
 # APIs Used
 Our app was built on the Bulma CSS framework (https://bulma.io/) using three third-party APIs: Aztro (https://aztro.readthedocs.io/en/latest/#), NASA Astrology of the Day (https://api.nasa.gov/), and Wikipedia Born on this Day (https://en.wikipedia.org/api/rest_v1/#/Feed/onThisDay). 
