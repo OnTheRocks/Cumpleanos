@@ -44,7 +44,6 @@ body {
 
 .navbar-item {
     background-color:Black ;
-    /* border-right: solid 2px white; */
     color: gray;
     padding: 0;
 }
@@ -52,8 +51,6 @@ body {
 .navbar-item2 {
     float: right;
     padding-left: 50px;
-
-
 }
 
 #card-t2 {
@@ -105,9 +102,7 @@ body {
 
 .select {
     column-span: all;
-    align-content: center;
-
-    
+    align-content: center;    
 }
 
 #h2 {
