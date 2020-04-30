@@ -10,7 +10,7 @@ https://ontherocks.github.io/Cumpleanos/
 - HTML
 - CSS
 - JavaScript
-- Bulma.IO
+- Bulma.io
 
 
 # APIs Used
