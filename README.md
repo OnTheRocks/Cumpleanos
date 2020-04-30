@@ -34,5 +34,12 @@ There are few things that every single person has in common, but we are united i
 # Wikipedia License
 Use of the Wikipedia API is licensed under the Creative Commons-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/) and GFDL licenses, and we irrevocably agree to release modifications or additions made through this API under these licenses. See https://www.mediawiki.org/wiki/REST_API for background and details. By using this API, we agree to Wikimedia's Terms of Use and Privacy Policy.  
 
+# Future Development
+- Get the API that lists the celebrity born on your birthdate working to provide a more relevent celebrity.  May need to find a new API for this, currently Wiki-Pedia provides a huge number of celebrities and most are not relevent to our users or do not provice a photo.
+
+- Provide more date relevent to the user's specific birthday including their birth year.
+
+- Incorporate more features like personality quizes and other fun things.
+
 # Authors
 Liz Alexander, Nathan Huber, Crystal Nwansi, Andrew Ross, and Angela Yu
