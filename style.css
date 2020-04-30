@@ -88,16 +88,11 @@ body {
         color:  #008098;
         border-top: solid 4px #008098;
         border-bottom: solid 4px #008098;
-        margin: 0;
-       /*  left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: black;
-       
-        text-align: center;
-        text-shadow: black;
-        border-top: solid 2px gray;
-        border-bottom: solid 2px gray; */
+        margin: 0; 
+}
+
+.footer a span {
+    color: #008098;
 }
 
 .hidden {
