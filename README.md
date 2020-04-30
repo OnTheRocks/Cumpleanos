@@ -1,7 +1,10 @@
 # Cumpleaños
 
 # Description
-This is a fun app that is geared towards zoomers/millennials. But free and readily available for anyone to use.  It's a lighthearted app that draws upon three APIs to show users a variety of information related to their birthday. Upon arriving to the page, the user enters their birth month and day using a dropdown menu. From this information, the user is shown their zodiac sign horoscope (pulled from the Aztro API), the NASA Image of the Day that was posted on their birthdate in 2018 (pulled from the NASA Image of the Day API), and another famous person born on the same day (pulled from the Wikipedia Born On This Day API). 
+This is a fun app that is geared towards zoomers/millennials. But free and readily available for anyone to use.  It's a lighthearted app that draws upon three APIs to show users a variety of information related to their birthday. Upon arriving to the page, the user enters their birth month and day using a dropdown menu. From this information, the user is shown their zodiac sign horoscope (pulled from the Aztro API), the NASA Image of the Day that was posted on their birthdate in 2018 (pulled from the NASA Image of the Day API), and another famous person born on the same day (pulled from the Wikipedia Born On This Day API).
+
+# Deployed App
+https://ontherocks.github.io/Cumpleanos/
 
 # Technologies Used
 - HTML
