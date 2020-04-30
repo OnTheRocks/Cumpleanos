@@ -1,3 +1,6 @@
+html {
+    background-color: black;
+}
 body {
     background-color: black;
     min-height: 100vh;
@@ -35,8 +38,8 @@ body {
 
 .navbar {
     background-color: black;
-    border-bottom: solid 2px gray;
-    border-top: solid 2px gray;
+    border-bottom: solid 2px #008098;
+    border-top: solid 2px #008098;
 }
 
 .navbar-item {
@@ -73,19 +76,28 @@ body {
 }
 
 .row {
-    color: white;
+    color: gray;
 }
-footer {
-        position: sticky;
-        left: 0;
+
+.footer {
+        position: fixed;
+        bottom: 0 !important;
+        width: 100%;
+        background-color: black;
+        padding: 20px;
+        color:  #008098;
+        border-top: solid 4px #008098;
+        border-bottom: solid 4px #008098;
+        margin: 0;
+       /*  left: 0;
         bottom: 0;
         width: 100%;
         background-color: black;
-        color: gray;
+       
         text-align: center;
         text-shadow: black;
         border-top: solid 2px gray;
-        border-bottom: solid 2px gray;
+        border-bottom: solid 2px gray; */
 }
 
 .hidden {
