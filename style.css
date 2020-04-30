@@ -40,9 +40,17 @@ body {
 }
 
 .navbar-item {
-    background-color: grey;
+    background-color:grey ;
     border-right: solid 2px white;
     color: white;
+    padding: 0;
+}
+
+.navbar-item2 {
+    float: right;
+    padding-left: 50px;
+
+
 }
 
 #card-t2 {
