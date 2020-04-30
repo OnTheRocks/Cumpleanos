@@ -12,8 +12,8 @@ body {
 }
 
 #star-sign-data {
-    border-bottom: solid 2px white;
-    border-top: solid 2px white;
+    border-bottom: solid 2px gray;
+    border-top: solid 2px gray;
 }
 
 #star-sign {
@@ -26,23 +26,23 @@ body {
 
 .column {
     background-color:black;
-    color:white;
+    color:gray;
 }
 
 .column-title {
-    border-bottom: solid 2px white;
+    border-bottom: solid 2px gray;
 }
 
 .navbar {
-    background-color: #006666;
-    border-bottom: solid 2px white;
-    border-top: solid 2px white;
+    background-color: black;
+    border-bottom: solid 2px gray;
+    border-top: solid 2px gray;
 }
 
 .navbar-item {
-    background-color:grey ;
-    border-right: solid 2px white;
-    color: white;
+    background-color:Black ;
+    /* border-right: solid 2px white; */
+    color: gray;
     padding: 0;
 }
 
@@ -54,11 +54,11 @@ body {
 }
 
 #card-t2 {
-    color: white;
+    color: gray;
 }
 
 .label {
-    color: white;
+    color: gray;
     padding-top: 10px;
     padding-right: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -80,12 +80,12 @@ footer {
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: #006666;
-        color: white;
+        background-color: black;
+        color: gray;
         text-align: center;
         text-shadow: black;
-        border-top: solid 2px white;
-        border-bottom: solid 2px white;
+        border-top: solid 2px gray;
+        border-bottom: solid 2px gray;
 }
 
 .hidden {
@@ -99,6 +99,8 @@ footer {
 .select {
     column-span: all;
     align-content: center;
+
+    
 }
 
 #h2 {
